@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 
     
     
-consumerKey = 'NZqIz0XtOzNPo7u3M702eJx3u'
-consumerSecret = 'OtBFN0byJUIvcs03ynWhV6gzZk6mRyXaGzXUEW6fu3W1KkZwXf'
-accessToken = '1082232245560037377-KbvnDjIVfd7uyE0Eqiz6hRR1f2udrQ'
-accessTokenSecret = 'Eg4ROmC0dg2vYEYaZ2maBLdyAaQGD9x75mcSwFEV0PuKB'
+consumerKey = 'Your twitter consumer key'
+consumerSecret = 'Your twitter consumer secret key'
+accessToken = 'Your twitter acess token details'
+accessTokenSecret = 'Your twitter access token secret Key'
 auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
 auth.set_access_token(accessToken, accessTokenSecret)
 api = tweepy.API(auth)
